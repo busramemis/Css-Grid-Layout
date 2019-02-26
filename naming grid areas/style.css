@@ -1,0 +1,62 @@
+.container {
+	width: 800px;
+	margin: 3em auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 170px 150px 130px;
+	grid-template-areas:
+		"header header header"
+		"aside main main"
+		"aside item-1 item-2";
+	grid-gap: 25px;
+}
+.container > *{
+	background-color: #f77b55;
+}
+.header {
+	grid-area: header;
+}
+.aside {
+	grid-area: aside;
+}
+.main {.container {
+  width: 800px;
+  margin: 3em auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 170px 150px 130px;
+  grid-template-areas: "header header header" "aside main main" "aside item-1 item-2";
+  grid-gap: 25px;
+}
+.container > * {
+  background-color: #f77b55;
+}
+
+.header {
+  grid-area: header;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.main {
+  grid-area: main;
+}
+
+.item-1 {
+  grid-area: item-1;
+}
+
+.item-2 {
+  grid-area: item-2;
+}
+
+	grid-area: main;
+}
+.item-1 {
+	grid-area: item-1;
+}
+.item-2 {
+	grid-area: item-2;
+}

@@ -1,0 +1,32 @@
+.container{
+	width: 900px;
+	margin: 50px auto;
+	color: #fff;
+
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 100px);
+	grid-template-rows: minmax(150px, min-content);
+
+}
+.item-1{
+	background-color: #581B45;
+}
+.item-2{
+	background-color: #900C3F;
+}
+.item-3{
+	background-color: #C70039;
+}
+.item-4{
+	background-color: #FF5733;
+}
+.item-5{
+	background-color: #FFC30F;
+}
+.item-6{
+	background-color: #FFEEAD;
+}
